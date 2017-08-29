@@ -2,17 +2,20 @@ body{
 	margin:0px auto;
 	font-family: Geneva, Arial, Helvetica, sans-serif;
 	font-size:14px;
+	text-shadow:#a5a7a8 0 0 1px;
 }
 h1{
 	font-size:15px;
 	font-weight:900;
 	color:#545454;
+	text-shadow:#a5a7a8 0 0 1px;
 }
 .content{
 	min-height:100px;
 	margin:0px;
 	background-color:white;
-	padding:0px;}
+	padding:0px;
+}
 .footer{
 	background-color:#ecf0f1;
 	height:800px;
@@ -21,7 +24,7 @@ h1{
 .footer-wrapper{
 	margin:0px auto;
 	width:1200px;
-	}
+}
 .aftercontent {
 	height: 5px;
 	margin:0px;
@@ -43,6 +46,7 @@ h1{
 .secondblock p{
 	color:#b7bdbd;
 	font-size:12px;
+	text-shadow:none;
 }
 .list-firstblock, .list-secondblock, .list-thirdblock{
 	list-style:none;
@@ -50,26 +54,69 @@ h1{
 .footer-wrapper li{
 	border:1px solid #dbe3e3;
 	border-radius:50px 50px;
-	padding:6px;
+	padding:0px;
 	margin:5px;
 	width:230px;
+	height:27px;
 	margin-left:-50px;
 }
-.list-thirdblock li{	
-	padding:10px;
-	margin:10px;
+.footer-wrapper .list-thirdblock li{	
+	padding:0px;
+	margin:11px; 
 	margin-left:-50px;
+	width:230px;
+	height:45px;
+	background: url(images/fb1.png) no-repeat;
+	background-size:20%;
+}
+.footer-wrapper .list-thirdblock li:nth-child(2){
+	background: url(images/tw1.png) no-repeat;
+	background-size:20%;
+}
+.footer-wrapper .list-thirdblock li:nth-child(3){
+	background: url(images/gg1.png) no-repeat;
+	background-size:20%;
+}
+.footer-wrapper .list-thirdblock li:nth-child(4){
+	background: url(images/pn1.png) no-repeat;
+	background-size:20%;
 }
 .footer-wrapper a{
-	color:#454c4e;
+	color:#545454;
 	text-decoration:none;
 	display:block;
-	height: 100%;
+	padding:5px 0px 5px 10px;
 }
 .footer-wrapper a:hover{
 	background-color:#f7fbfc;
 	border-radius:50px 50px;
 	padding:0px;
 	margin:0px;
+	display:block;
+	padding:5px 0px 5px 10px;
+	width:230px;
+	height:27px;
+	box-sizing:border-box;
 }
-
+.footer-wrapper .list-thirdblock a{
+	padding:15px 0px 10px 55px;
+}
+.footer-wrapper .list-thirdblock a:hover{
+	width:230px;
+	height:45px;
+	padding:15px 0px 10px 55px;
+	background: url(images/fb1.png) white no-repeat;
+	background-size:20%;
+}
+.footer-wrapper .list-thirdblock .secondli a:hover{
+	background: url(images/tw1.png) white no-repeat;
+	background-size:20%;
+}
+.footer-wrapper .list-thirdblock .thirdli a:hover{
+	background: url(images/gg1.png) white no-repeat;
+	background-size:20%;
+}
+.footer-wrapper .list-thirdblock .fourthli a:hover{
+	background: url(images/pn1.png) white no-repeat;
+	background-size:20%;
+}
